@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Restaurant Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('path-to-image.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      color: #fff;
+      margin: 0;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    nav {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    #home h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    #home p {
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <nav>
+    <ul>
+
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#login">Login</a></li>
+              <li><a href="#signup">Sign Up</a></li>
+            </ul>
+          </nav>
+          <section id="home">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>Enjoy the best dining experience.</p>
+          </section>
+          
